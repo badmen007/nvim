@@ -5,6 +5,8 @@ return {
     config = function()
       -- load the colorscheme here
       vim.cmd([[colorscheme nightfly]])
+      -- Lua initialization file
+      vim.g.nightflyTransparent = true
     end,
-  }
+  },
 }

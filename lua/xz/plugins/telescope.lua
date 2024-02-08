@@ -20,6 +20,13 @@ return {
             ["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
           },
         },
+        -- ignore
+        file_ignore_patterns = {
+          ".git",
+          "lazy-lock.json",
+          "node_modules",
+          "yarn.lock",
+        },
       },
     })
 
